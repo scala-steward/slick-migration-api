@@ -17,7 +17,7 @@ libraryDependencies += "org.xerial"          % "sqlite-jdbc"          % "3.28.0"
 
 // latest Derby that works
 // 10.14.2.0 fails with java.security.AccessControlException: access denied org.apache.derby.security.SystemPermission( "engine", "usederbyinternals" )
-libraryDependencies += "org.apache.derby"    % "derby"                % "10.11.1.1" % "test"
+libraryDependencies += "org.apache.derby"    % "derby"                % "10.15.1.3" % "test"
 
 libraryDependencies += "org.hsqldb"          % "hsqldb"               % "2.5.0"     % "test"
 
